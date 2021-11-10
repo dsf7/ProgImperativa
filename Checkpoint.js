@@ -1,3 +1,5 @@
+// DANIEL FONTOURA - Turma 7
+
 // Olá, você foi contratado para executar este projeto. É importante que você analise, entenda o pedido do cliente e desenvolva conforme solicitado. Veja abaixo os requisitos do projeto:
 
 // - Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
@@ -96,6 +98,7 @@ function brigadeiro(tempo) {
     console.log("Brigadeiro pronto, bom apetite!!!")
 }
 
+// testes
 
 Menu(1);
 Menu(2);
@@ -110,29 +113,3 @@ feijão(25);
 feijão(38);
 feijão(9);
 feijão(12);
-
-// if(idade >=18){
-//     return console.log("Você é maior de idade");
-// }else if(idade == 18){
-//     console.log("Você está aprendendo");
-// }else{
-//     console.log("Você não é maior de idade");
-// }
-
-// let result = idade>18 ? "Você é maior de idade" : "Você não é maior de idade";
-
-// console.log(result);
-
-// switch(idade){
-
-//     case 18:
-//         console.log("idade é igual a 18");
-//         break;
-//         case 19:
-//             console.log("idade é igual a 19");
-//             break;
-//             default:
-//                 console.log("nenhum deles");
-
-// }
-
