@@ -89,7 +89,6 @@ const espectadores = [
     let bom = 0;
     let otimo = 0;
     let somaIdadeOtimo = 0;
-    let mediaIdadeOtimo = 0;
     let totalEspectadores = a.length;
 
     for (let i = 0; i < a.length; i++){
