@@ -3,13 +3,9 @@
 
 // Faça um programa que receba a idade e a opinião de 15 espectadores, calcule e imprima:
 
-// a média das idades das pessoas que responderam ótimo;
-
 // a quantidade de pessoas que responderam regular;
-
 // a porcentagem de pessoas que responderam bom entre todos os espectadores analisados.
-
-
+// a média das idades das pessoas que responderam ótimo;
 
 const espectadores = [
 
@@ -74,15 +70,6 @@ const espectadores = [
     }
   ]
 
-
-
-  var menor = 0; 
-  var maior = 3;
-
-  function roundToTwo(num) {    
-    return +(Math.round(num + "e+2")  + "e-2");
-}
-
   function resultado(a) {
     
     let regular = 0;
@@ -108,10 +95,9 @@ const espectadores = [
         somaIdadeOtimo = (somaIdadeOtimo + (a[i].idade));
     }    
 }
-
-console.log(regular + " espectadores acharam o filme regular.");
-console.log(bom + " espectadores acharam o filme bom. " + (bom/totalEspectadores)*100 + " % dos que foram no cinema");
-console.log(otimo + " espectadores acharam o filme otimo. A média de idade deles é de " + Math.floor(somaIdadeOtimo/otimo) + " anos.");
+    console.log(regular + " espectadores acharam o filme regular.");
+    console.log(bom + " espectadores acharam o filme bom. " + (bom/totalEspectadores)*100 + " % dos que foram no cinema");
+    console.log(otimo + " espectadores acharam o filme ótimo. A média de idade deles é de " + Math.floor(somaIdadeOtimo/otimo) + " anos.");
     }
 
 
